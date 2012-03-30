@@ -2,7 +2,9 @@
   "name": "helloworld",
   "description": "A hello world app that demonstrates deploying on awsbox",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "express": "*"
+  },
   "devDependencies": {
     "awsbox": "*"
   }
