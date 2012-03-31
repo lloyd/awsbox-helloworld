@@ -1,5 +1,3 @@
 {
-  "processes": [
-    "node helloworld.js"
-  ]
+  "processes": [ "helloworld.js" ]
 }
