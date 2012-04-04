@@ -8,7 +8,7 @@ The four things that make this hello world app awsbox deployable
 include:
 
   * written in nodejs
-  * has an `awsbox.json` file which provides information to the
+  * has an `.awsbox.json` file which provides information to the
     deployment system (like, what processes should be run?)
   * binds localhost and defers to a PORT environment variable.
   * has a `package.json` file and can be npm installed.
