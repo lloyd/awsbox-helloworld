@@ -1,7 +1,7 @@
 ## It's so cute, what is it?
 
 This is a sample hello world application that can be deployed on a
-fictional PaaS called **awsbox**, which is a super thin box around
+DIY PaaS called **awsbox**, which is a super thin box around
 amazon web services.
 
 The four things that make this hello world app awsbox deployable
