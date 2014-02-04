@@ -12,3 +12,15 @@ include:
     deployment system (like, what processes should be run?)
   * binds localhost and defers to a PORT environment variable.
   * has a `package.json` file and can be npm installed.
+
+## How do I make it go?
+
+    $ EXPORT AWS_ID=<your aws id>
+    $ EXPORT AWS_SECRET=<your aws secret>
+    $ git clone git://github.com/lloyd/awsbox-helloworld
+    $ cd awsbox-helloworld
+    $ npm install
+    $ node_modules/.bin/awsbox create -n mybox -t t1.micro
+    $ git push mybox master
+    
+Now your application is deployed on the web.
