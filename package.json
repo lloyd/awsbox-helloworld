@@ -5,6 +5,10 @@
   "dependencies": {
   },
   "devDependencies": {
-    "awsbox": "0.4.4"
+    "awsbox": "0.6.3"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/lloyd/awsbox-helloworld"
   }
 }
